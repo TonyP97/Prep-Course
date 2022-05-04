@@ -5,17 +5,32 @@ h1 {
 img {
     width: 400px;
     height: 400px;
+
 }
 
 #thirdDiv {
     width: 500px;
     height: 850px; 
-    background-color: yellow;
+    background-color: rgb(235, 116, 136);
     padding: 50px;
     border-width: 5cm;
-    border-color: blue;
-    border-style: double;}
+    border-color: rgb(255, 0, 0);
+    border-style: dotted;
+    margin: auto;}
 
 span {
     font-size: 18px;
     margin: 50px;}
+
+body {
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/f/f7/Mostaza_company_logo.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+div { text-align: center;
+    
+}
