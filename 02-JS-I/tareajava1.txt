@@ -1,0 +1,49 @@
+VARIABLES: Forma de almacenar el valor de algo para usar más tarde. para crearla se utiliza "var"/"let"/"const" seguida del nombre, además se le puede asignar un valor utilizando =. Ejemplo abajo:
+var minombre = "agustín";
+let miapellido = "pincheira";
+const miedad = 24;
+
+STRING: Son bloques de texto, van siempre entre comillas (simples o dobles), cualquier texto entre comillas es una String. Ejemplo abajo:
+var nombreGata = "Zowi";
+
+FUNCIONES: Son objetos invocables. Similares a un procedimiento, un conjunto de instrucciones que realiza una tarea o calcula un valor. Debe tener entrada y salida. 
+Anatomía de una Función: comienza con la palabra clave "function", seguida del nombre de la función (se recomienda poner de nombre la accion que realiza), a continuación un parentesis abierto y uno cerrado (), y por ultimo corchetes dentro de los cuales va el código a ejecutar por dicha funcion {}.
+Ejemplo: Para ejecutar esta función se debe escribir el nombre de la misma y los parentesis.
+function logHola() {
+    console.log('Hola!');
+}
+
+logHola ();
+
+Ejemplo con un argumento: 
+function logHola(nombre) {
+    console.log('Hola, ' + nombre);
+}
+
+logHola('Agustín);
+
+Ejemplo con otro argumento: suma
+function sumarDosNumeros(a, b) {
+    var suma = a + b;
+    return suma;
+}
+
+sumarDosNumeros(1, 5); // 6
+
+DECLARACIONES IF: Es una forma en que nuestra funcion verifica sia lgo es true o false, esto se llama flujo de control.
+Ejemplo:
+function puedeManejar(edad) {
+    if (edad > 18){
+        return true;
+    }
+
+    return false;
+}
+
+puedeManejar(22); // true
+
+VALORES BOOLEANOS: Provienen de la lógica de Boole. Es un concepto que alimenta el código binario, la lógica booleana
+significa que tiene dos opciones, activar o desactivar, 0 o 1, verdadero o falso. Javascript lo utiliza para significar 
+verdadero o falso.
+Ejemplo:
+var meEncantaJavascript = true;
