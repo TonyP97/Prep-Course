@@ -7,20 +7,19 @@ STRING: Son bloques de texto, van siempre entre comillas (simples o dobles), cua
 var nombreGata = "Zowi";
 
 FUNCIONES: Son objetos invocables. Similares a un procedimiento, un conjunto de instrucciones que realiza una tarea o calcula un valor. Debe tener entrada y salida. 
+Por ejemplo le puedo poner un código y en vez de estar siempre escribiendo ese código, invoco la función y lo va a hacer por mi.
 Anatomía de una Función: comienza con la palabra clave "function", seguida del nombre de la función (se recomienda poner de nombre la accion que realiza), a continuación un parentesis abierto y uno cerrado (), y por ultimo corchetes dentro de los cuales va el código a ejecutar por dicha funcion {}.
 Ejemplo: Para ejecutar esta función se debe escribir el nombre de la misma y los parentesis.
 function logHola() {
-    console.log('Hola!');
+    console.log('Hola!');   [ACA SE ESTA DECLARANDO]
 }
-
-logHola ();
+logHola ();  [ACA SE ESTA EJECUTANDO]
 
 Ejemplo con un argumento: 
 function logHola(nombre) {
-    console.log('Hola, ' + nombre);
+    console.log('Hola, ' + nombre); [ACA SE ESTA DECLARANDO]
 }
-
-logHola('Agustín);
+logHola(' Agustín); [ACA SE ESTA EJECUTANDO]
 
 Ejemplo con otro argumento: suma
 function sumarDosNumeros(a, b) {
