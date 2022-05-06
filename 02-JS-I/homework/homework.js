@@ -50,7 +50,7 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var multiplica = x + y;
+  var multiplica = x * y
   return multiplica
 }
 
@@ -165,7 +165,7 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero > 0) {return ("Es positivo")}
   else if (numero < 0) {return ("Es negativo")}
-  else return false//return false (antes estaba así)
+  return false//return false (antes estaba así)
 }
 
 function agregarSimboloExclamacion(str) {
@@ -228,8 +228,8 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra === "a" || "e" || "i" || "o" || "u") {return("Es vocal")}//para devolver las respuestas creo que el programa espera un return("")((por lo que vi en la consola esta linea estaba bien))
-  else if (letra !== "a" || "e" || "i" || "o" || "u") {return("Dato incorrecto")}//la paja es que en este tiene pinta de pedir otro filtro para ver si el string tiene mas de una letra
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {return("Es vocal")}//para devolver las respuestas creo que el programa espera un return("")((por lo que vi en la consola esta linea estaba bien))
+  else if (letra !== "a" || letra !== "e" || letra !== "i" || letra !== "o" || letra !== "u") {return("Dato incorrecto")}//la paja es que en este tiene pinta de pedir otro filtro para ver si el string tiene mas de una letra
 }
 
 
