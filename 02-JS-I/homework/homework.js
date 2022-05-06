@@ -163,6 +163,9 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
+  if (numero > 0) {return ("Es positivo")}
+  else if (numero < 0) {return ("Es negativo")}
+  else return false//return false (antes estaba así)
 }
 
 function agregarSimboloExclamacion(str) {
