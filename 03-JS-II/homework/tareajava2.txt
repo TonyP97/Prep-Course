@@ -1,0 +1,16 @@
+FOR: es una herramienta para hacer bucles en javascript
+empieza con la palabra clave for seguida de parentesis,
+dentro de los parentesis se deben colocar tres cosas.
+primero se declara la variable sobre la que se repetira el bucle.
+segundo se pone una expresion condicional, el ciclo se repetira hasta que esta expresion sea falsa.
+tercero incrementamos la variable.
+las tres declaraciones estan separadas por punto y coma.
+ 
+ &&: es un operador logico con el nombre "Y" ("AND") esto evalua ambas expresiones y devuleve verdadero
+ si ambas son correctas, sino devuelve falso.
+
+ ||: es el operador logico "O" ("OR") evalua si una de las expresiones es verdadera
+ devuelve veradera, si las dos son falsas, devuelve falso.
+
+ !: el operador logico "NOT" devolvera el valor booleano opuesto
+ de lo que se le pasa. 
