@@ -4,6 +4,7 @@ function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
   return array [0]
+  // return array.shift()
 }
 
 
@@ -11,6 +12,7 @@ function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
   return (array[array.length -1])
+  // return array.pop()
 }
 
 
@@ -26,6 +28,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  // for (var i = 0; i < array.length; i++) {
+  //  array [i] = array [i] + 1
+  // }
+  // return array
+  // }
   var miarray = []
   for (var i = 0; i < array.length; i++) {
     miarray[i] = array[i] + 1
@@ -67,6 +74,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  // return array.includes(elemento)
   for (var i = 0; i < array.length; i++) {
     if(array[i] === elemento) return true
   }
@@ -216,7 +224,9 @@ function breakStatement(numero) {
   var suma = numero
   for (var i = 0; i<10; i++) {
     suma = suma + 2
-    if (suma === i) break;
+    if (suma === i) {
+      break
+    }
     else {
       array.push(suma)
     }
