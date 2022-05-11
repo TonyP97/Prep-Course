@@ -1,0 +1,3 @@
+ARRAYS: son matrices que permiten almacenar varios datos dentro de una variable. Para construirlas primero se declara una variable y luego
+dentro de corchetes se introducen los datos. Para invocarlos se los debe llamar por su orden en la matriz que empieza en 0, si se quiere llamar al ultimo se puede utilizar .length y llamar al -1, 
+el anteultimo -2 y asi sucesivamente.
