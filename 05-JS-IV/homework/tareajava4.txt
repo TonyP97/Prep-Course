@@ -1,0 +1,21 @@
+OBJETOS: Los objetos contienen mucha informacion sobre una sola cosa. Se instancian usando llaves ({}).
+Usan un concepto llamado pares de clave:valor. La clave (key) es el identificador, y el valor (value)
+es el valor que queremos guardar en esa clave. Los objetos pueden tener muchos pares de clave:valor, 
+deben estar separados por una coma, no se deben usar punto y coma dentro de un objeto. 
+Las claves son unicas, solo puede haber una clave con ese nombre, sin embargo muchas pueden tener el 
+mismo valor. 
+Los valores puedens er cualquier tipo de dato de Javascript, cadena, número, booleano, matriz funcion 
+o incluso otro objeto.  
+
+PROPIEDADES: Para eliminar una propiedad se puede usar la palabra clave delete. 
+
+MÉTODOS: Las funciones guardadas en un objeto se denominan métodos. (.length, .push, .pop, etc)
+Para llamar a un método se usan notacion de puntos y paréntesis finales.
+
+BUCLE 'FOR...IN': Se utiliza para iterar sobre cada par clave:valor. 
+Comienza con 'for' y entre paréntesis declara una variable, la palabra clave 'in'
+y el nombre del objeto. Esto recorrerá cada clave del objeto y finalizará cuando se
+hayan iterado todas las claves. 
+
+NOTACION DE PUNTOS VS. NOTACION DE CORCHETES: Dot Notation busca el valor que uno esriba despues de puntito.
+Bracked Notation puede recibir un valor por referencia y buscar una string.
