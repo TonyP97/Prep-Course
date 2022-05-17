@@ -1,0 +1,8 @@
+PROTOTYPE: Es la forma de las clases de dar, a un objeto, acceso a cierto obeto, a esa propiedad.
+por ejemplo: dentro del prototype podemos establecer una funcion y luego llamar a un objeto con 
+el nombre de ese prototype y lo hara.
+El objeto tiene determinadas propiedades. Cuando no hay una propiedad dentro de un objeto, javascript 
+la busca en su prototipo. 
+
+CONSTRUCTORS (de Clases): Puede ser una funcion que se utiliza para construir un nuevo objeto con la palabra new.
+estan entre dos guiones bajos __asi__ . los prototipos son funciones constructoras donde estan guardados todos los valores
