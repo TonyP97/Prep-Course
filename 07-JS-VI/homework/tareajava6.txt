@@ -1,0 +1,2 @@
+FUNCIONES CALLBACK: los callback son la capacidad de javascript de pasar una funcion como argumento a otra funcion. Si creo una funcion
+despues puedo pasarsela como parametro a otra.
